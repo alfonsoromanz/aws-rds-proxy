@@ -1,8 +1,10 @@
 # Welcome to your CDK TypeScript project!
 
-This is a blank project for TypeScript development with CDK.
+Make sure to have AWS CLI and CDK CLI installed
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Make sure you copy the .env.example file into .env file and provide proper credentials
+
+Make sure to bootstrap your account for CDK: `cdk bootstrap aws://${ACCOUNT_ID}/${REGION}`
 
 ## Useful commands
 
