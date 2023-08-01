@@ -70,14 +70,4 @@ export class RdsProxyStack extends cdk.Stack {
   }
 }
 
-// // /Define the CDK application
-// class MyCdkApp extends cdk.App {
-//   constructor() {
-//     super();
-//     new RdsProxyStack(this, 'RdsProxyStack');
-//   }
-// }
-
-// // Instantiate and run the CDK application
-// new MyCdkApp().synth();
 
